@@ -1,15 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import { File1 } from './Components/File1';
-import { File2 } from './Components/File2';
+import Company from "./Components/Company";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <h1>Jai Sriram</h1>
-      <File1 />
-      <File2 />
-   
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Company></Company>}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

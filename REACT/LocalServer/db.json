@@ -1,0 +1,20 @@
+{
+    "company":[
+      {
+        "id": 1,
+        "name": "<NAME>",
+        "email": "<EMAIL>",
+        "phone": "5555",
+        "Address": "dkjsljfdlsjdfjalj",
+        "type": "MNC"
+      },
+      {
+        "id": 2,
+        "name": "2<NAME>",
+        "email": "2<EMAIL>",
+        "phone": "25555",
+        "Address": "2dkjsljfdlsjdfjalj",
+        "type": "MNC"
+      }
+    ]
+}
