@@ -2,7 +2,14 @@ import React from 'react'
 import "./style.css"
 import { Link } from 'react-router-dom';
 
-export const CreativeLogin = () => {
+
+export const CreativeLogin = () =>
+{
+
+    const handlelogin = () =>
+    {
+        console.log("Sai Krishna Singh & Gayatri")
+    }
   return (
       <div className='login template d-flex justify-content-center align-items-center 100-w vh-100 bg-primary'>
           <div className='form_container p-5 rounded bg-white'>
@@ -10,7 +17,7 @@ export const CreativeLogin = () => {
               <h3 className='text-center'>Sign In</h3>
               <div className='mb-2'>
                   <label htmlFor='email'>Email : </label>
-                  <input type="email" placeholder='Enter Email' className='form-control'/>
+                  <input type="email" placeholder='Enter Email'  className='form-control'/>
               </div> 
               <div className='mb-2'>
                   <label htmlFor='password'>Password :</label>
@@ -23,7 +30,7 @@ export const CreativeLogin = () => {
                   </label>
               </div>
               <div className='d-grid'>
-                    <button className='btn btn-primary'>Sign In</button>                  
+                    <button className='btn btn-primary' onClick={handlelogin}>Sign In</button>                  
               </div>
 
                   <p className='text-end mt-2'>
